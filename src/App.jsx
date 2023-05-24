@@ -14,7 +14,14 @@ function AppGroup() {
       {members.map((member) => (
         <p key={member}>{member}</p>
       ))}
-      <p>hola</p>
+      <div>
+        <p>ejemplos - example </p>
+        <p>Luis Torres</p>
+        <p>12323412</p>
+      </div>
+      <div>
+        <p>Aca ira la lista de usuarios que se consulte con la api</p>
+      </div>
     </div>
   );
 }
