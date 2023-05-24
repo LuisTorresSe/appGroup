@@ -12,15 +12,15 @@ const router = createBrowserRouter([
     element: <Root />,
   },
   {
-    path: "/terminos",
+    path: "terms",
     element: <Terms />,
   },
   {
-    path: "/condiciones",
+    path: "conditions",
     element: <Conditions />,
   },
   {
-    path: "/extraccion",
+    path: "extraccion",
     element: <AppGroup />,
   },
 ]);
